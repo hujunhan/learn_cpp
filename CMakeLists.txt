@@ -28,7 +28,7 @@ CPMAddPackage("gh:TheLartians/ModernCppStarter@0.17.2")
 # ---- Create executable ----
 
 # add your source files here
-add_executable(Playground main.cpp)
+add_executable(Playground 02-constexpr.cpp)
 # link to your dependencies' targets here
 target_link_libraries(Playground Greeter::Greeter)
 # setup your target's properties

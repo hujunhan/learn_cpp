@@ -1,0 +1,1 @@
+static int kk = 0;
